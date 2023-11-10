@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="container">
+        <div class="navigation__logo">
+          <div class="navigation__logo-text">Teacher Appointment</div>
+        </div>
+        <div class="navigation__empty"></div>
+        <div class="navigation__links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+      <div class="register">
+        <div class="register__logo">
+          <div class="register__logo-text">Teacher Register</div>
+        </div>
+        <form action="">
+          <label for="fullname">Full Name</label>
+          <input
+            type="text "
+            name="fullname"
+            id="fullname"
+            class="register__fullname"
+          />
+          <label for="description">Description</label>
+          <textarea
+            name="description"
+            id="description"
+            cols="30"
+            rows="10"
+            class="register__description"
+          ></textarea>
+          <input
+            type="file"
+            name="profilePic"
+            id="profilePic"
+            value="Upload Photo"
+          />
+          <button class="register__profilePic">Upload Photo</button>
+          <input type="submit" value="Register" class="register__submit" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
