@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 const register = document.querySelector(".login__register");
 
 register.addEventListener("click", () => {
-  alert("hello");
+  window.location.href = "./../Register/index.html";
 });
 
 form.addEventListener("submit", (e) => {
@@ -11,8 +11,6 @@ form.addEventListener("submit", (e) => {
   const username = form.login__username.value;
   const password = form.login__password.value;
   const role = form.role.value;
-
-  console.log(role);
 
   console.log(`${username} ${password}`);
   if (authentication(username, password)) {
