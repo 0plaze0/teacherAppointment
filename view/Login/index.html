@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher Appointment</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div class="logo__text">Teacher Appointment</div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="signIn">
+          <div class="signIn__text">Sign in</div>
+        </div>
+        <div class="login">
+          <form action="" method="get">
+            <label for="username">Username:</label>
+            <input
+              type="user"
+              name="username"
+              class="login__username"
+              id="login__username"
+            />
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              name="password"
+              class="login__password"
+              id="login__password"
+            />
+            <div class="login__role">
+              <input
+                type="radio"
+                value="student"
+                name="role"
+                class="login__student button--hover"
+                id="login__student"
+              /><label for="login__student" class="login__student button--hover"
+                >Student</label
+              >
+
+              <input
+                type="radio"
+                value="teacher"
+                name="role"
+                class="login__teacher button--hover"
+                id="login__teacher"
+              /><label for="login__teacher" class="login__teacher button--hover"
+                >Teacher</label
+              >
+            </div>
+            <input
+              type="button"
+              value="Register"
+              class="login__register button--hover"
+              id="login__register"
+            />
+            <input
+              type="submit"
+              value="Login"
+              class="login__submit button--hover"
+              id="login__submit"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
