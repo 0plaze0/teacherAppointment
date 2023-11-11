@@ -127,3 +127,9 @@ main {
   color: #fff;
   border-radius: 20px;
 }
+.slot__meet {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
